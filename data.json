@@ -1,0 +1,217 @@
+{
+    "subway_stations": {
+        "Akademmistechko": {
+            "coordinates": [50.4666694,30.3785173],
+            "adjacent_stations": ["Zhytomyrska"]
+        },
+	    "Zhytomyrska": {
+            "coordinates": [50.4557332,30.3628221],
+            "adjacent_stations": ["Akademmistechko", "Sviatoshyn"]
+        },
+         "Sviatoshyn": {
+            "coordinates": [50.4557626,30.3475012],
+            "adjacent_stations": ["Zhytomyrska", "Nyvky"]
+        },
+	    "Nyvky": {
+            "coordinates": [50.4586529,30.4021843],
+            "adjacent_stations": ["Sviatoshyn", "Beresteiska"]
+        },
+	    "Beresteiska": {
+            "coordinates": [50.4658673,30.3703899],
+            "adjacent_stations": ["Nyvky", "Shuliavska"]
+        },
+	    "Shuliavska": {
+            "coordinates": [50.4540695,30.4422197],
+            "adjacent_stations": ["Beresteiska", "Politekhnichnyi instytut"]
+        },
+        "Politekhnichnyi instytut": {
+            "coordinates": [50.4511331,30.4621048],
+            "adjacent_stations": ["Shuliavska", "Vokzalna"]
+        },
+	    "Vokzalna": {
+            "coordinates": [50.4462585,30.4722147],
+            "adjacent_stations": ["Politekhnichnyi instytut", "Universytet"]
+        },
+	    "Universytet": {
+            "coordinates": [50.2208364,31.0895707],
+            "adjacent_stations": ["Vokzalna", "Teatralna"]
+        },
+        "Teatralna": {
+            "coordinates": [50.4450404, 30.5168112],
+            "adjacent_stations": ["Zoloti vorota", "Universytet", "Khreshchatyk"]
+        },
+	    "Khreshchatyk": {
+            "coordinates": [50.4477371,30.5216931],
+            "adjacent_stations": ["Teatralna", "Maidan Nezalezhnosti", "Arsenalna"]
+        },
+	    "Arsenalna": {
+            "coordinates": [50.4430658,30.5449687],
+            "adjacent_stations": ["Khreshchatyk", "Dnipro"]
+        },
+	    "Dnipro": {
+            "coordinates": [50.441228,30.4892991],
+            "adjacent_stations": ["Arsenalna", "Hidropark"]
+        },
+	    "Hidropark": {
+            "coordinates": [50.4459814,30.5746953],
+            "adjacent_stations": ["Dnipro", "Livoberezhna"]
+        },
+	    "Livoberezhna": {
+            "coordinates": [50.4518674,30.5959684],
+            "adjacent_stations": ["Hidropark", "Darnytsia"]
+        },
+	    "Darnytsia": {
+            "coordinates": [50.4455165,30.6059545],
+            "adjacent_stations": ["Livoberezhna", "Chernihivska"]
+        },
+	    "Chernihivska": {
+            "coordinates": [50.4598954,30.6281033],
+            "adjacent_stations": ["Darnytsia", "Lisova"]
+        },
+	    "Lisova": {
+            "coordinates": [50.4599121,30.6215372],
+            "adjacent_stations": ["Chernihivska"]
+        },
+        "Heroiv Dnipra":{
+	        "coordinates": [50.5227778, 30.498611111111114],
+            "adjacent_stations": ["Minska"]
+        },
+        "Minska":{
+            "coordinates": [50.5122222,30.498611111111114],
+            "adjacent_stations": ["Heroiv Dnipra", "Obolon"]
+        },
+        "Obolon":{
+            "coordinates": [50.5013889,30.498055555555556],
+            "adjacent_stations": ["Minska", "Petrivka"]
+        },
+        "Petrivka":{
+            "coordinates": [50.4869444, 30.497777777777777],
+            "adjacent_stations": ["Obolon", "Tarasa Shevchenka"]
+        },
+        "Tarasa Shevchenka":{
+            "coordinates": [50.4730556, 30.505277777777778],
+            "adjacent_stations": ["Petrivka", "Kontraktova Ploscha"]
+        },
+        "Kontraktova Ploscha":{
+            "coordinates": [50.4652778,30.516666666666666],
+            "adjacent_stations": ["Tarasa Shevchenka", "Poshtova Ploscha"]
+        },
+        "Poshtova Ploscha":{
+            "coordinates": [50.459269,30.5222233],
+            "adjacent_stations": ["Kontraktova Ploscha", "Maidan Nezalezhnosti"]
+        },
+        "Maidan Nezalezhnosti":{
+            "coordinates": [50.4481226,30.5228151],
+            "adjacent_stations": ["Poshtova Ploscha", "Ploshcha Lva Tolstoho", "Khreshchatyk"]
+        },
+        "Ploshcha Lva Tolstoho":{
+            "coordinates": [50.4394444,30.516666666666666],
+            "adjacent_stations": ["Maidan Nezalezhnosti", "Olimpiiska", "Palats sportu"]
+        },
+        "Olimpiiska":{
+            "coordinates": [50.4238889,30.516111111111112],
+            "adjacent_stations": ["Ploshcha Lva Tolstoho", "Palats <<Ukraina>>"]
+        },
+        "Palats <<Ukraina>>":{
+            "coordinates": [50.4208333,30.520833333333332],
+            "adjacent_stations": ["Lybidska", "Olimpiiska"]
+        },
+        "Lybidska":{
+            "coordinates": [50.4130556,30.524444444444445],
+            "adjacent_stations": ["Palats <<Ukraina>>", "Demiivska"]
+        },
+        "Demiivska":{
+            "coordinates": [50.4047917,30.51683333333333],
+            "adjacent_stations": ["Lybidska", "Holosiivska"]
+        },
+        "Holosiivska":{
+            "coordinates": [50.3975,30.508333333333333],
+            "adjacent_stations": ["Demiivska", "Vasylkivska"]
+        },
+        "Vasylkivska":{
+            "coordinates": [50.3905556,30.488055555555558],
+            "adjacent_stations": ["Holosiivska", "Vystavkovyi Tsentr"]
+        },
+        "Vystavkovyi Tsentr":{
+            "coordinates": [50.3825,30.4775],
+            "adjacent_stations": ["Vasylkivska", "Ipodrom"]
+        },
+        "Ipodrom":{
+	        "coordinates": [50.3763889,30.47749972222222],
+            "adjacent_stations": ["Vystavkovyi Tsentr", "Teremky"]
+        },
+        "Teremky":{
+            "coordinates": [50.3670444,30.454202777777777],
+            "adjacent_stations": ["Ipodrom"]
+        },
+	    "Syrets":{
+	        "coordinates": [50.4763889,30.430833333333336],
+		    "adjacent_stations": ["Dorohozhychi"]
+	    },
+	    "Dorohozhychi":{
+		    "coordinates": [50.4736111,30.449166666666667],
+			"adjacent_stations": ["Syrets","Lukianivska"]
+	    },
+        "Lukianivska": {
+            "coordinates": [50.4611505,30.4814437],
+            "adjacent_stations": ["Dorohozhychi", "Zoloti vorota"]
+        }, 
+	    "Zoloti vorota":{
+		    "coordinates": [50.4483333,30.513333333333332],
+		    "adjacent_stations": ["Lukianivska", "Palats sportu", "Teatralna"]
+	    },
+	    "Palats sportu":{
+		    "coordinates": [50.4380556,30.520833333333332],
+		    "adjacent_stations": ["Zoloti vorota", "Klovska", "Ploshcha Lva Tolstoho"]
+	    },
+	    "Klovska":{
+		    "coordinates": [50.4369444,30.531666666666666],
+		    "adjacent_stations": ["Palats sportu", "Pecherska"]
+	    },
+	    "Pecherska":{
+		    "coordinates": [50.4275,30.53888888888889],
+		    "adjacent_stations": ["Klovska", "Druzhby narovib"]
+	    },
+	    "Druzhby narovib":{
+		    "coordinates": [50.4180556,30.545],
+		    "adjacent_stations": ["Pecherska", "Vydubychi"]
+	    },
+	    "Vydubychi":{
+		    "coordinates": [50.4022222,30.560833333333335],
+		    "adjacent_stations": ["Druzhby narovib", "Slavutych"]
+	    },
+	    "Slavutych":{
+		    "coordinates": [50.3941667,30.604166666666668],
+		    "adjacent_stations": ["Vydubychi", "Osokorky"]
+	    },
+	    "Osokorky":{
+		    "coordinates": [50.3955556,30.615833333333335],
+		    "adjacent_stations": ["Slavutych", "Pozniaky"]
+	    },
+	    "Pozniaky":{
+		    "coordinates": [50.3980556,30.633333333333333],
+		    "adjacent_stations": ["Osokorky", "Kharkivska"]
+	    },
+	    "Kharkivska":{
+		    "coordinates": [50.4008333,30.65222222222222],
+		    "adjacent_stations": ["Pozniaky", "Vyrlytsia"]
+	    },
+	    "Vyrlytsia":{
+		    "coordinates": [50.4033333,30.66611111111111],
+		    "adjacent_stations": ["Kharkivska", "Boryspilska"]
+	    },
+	    "Boryspilska":{
+		    "coordinates": [50.4033333,30.68277777777778],
+		    "adjacent_stations": ["Vyrlytsia", "Chervonyl khutir"]
+	    },
+	    "Chervonyl khutir":{
+		    "coordinates": [50.4088889,30.694444444444446],
+		    "adjacent_stations": ["Boryspilska"]
+	    }
+    },
+    "lines": {
+        "green": ["Syrets","Dorohozhychi","Lukianivska","Zoloti vorota","Palats sportu","Klovska","Pecherska","Druzhby narovib","Vydubychi","Slavutych","Osokorky","Pozniaky","Kharkivska","Vyrlytsia","Boryspilska","Chervonyl khutir"],
+        "blue": ["Heroiv Dnipra","Minska","Obolon","Petrivka","Tarasa Shevchenka","Kontraktova Ploscha","Poshtova Ploscha","Maidan Nezalezhnosti","Ploshcha Lva Tolstoho","Olimpiiska","Palats <<Ukraina>>","Lybidska","Demiivska","Holosiivska","Vasylkivska","Vystavkovyi Tsentr","Ipodrom","Teremky"],
+        "red": ["Akademmistechko", "Zhytomyrska", "Sviatoshyn", "Nyvky", "Beresteiska", "Shuliavska", "Politekhnichnyi instytut", "Vokzalna", "Universytet", "Teatralna", "Khreshchatyk", "Arsenalna", "Dnipro", "Hidropark", "Livoberezhna", "Darnytsia", "Chernihivska", "Lisova"]
+    }
+}   
